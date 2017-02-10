@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://bit.ly/2lx5X7J' target='_blank'><img src='https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/16640677_1647511198877000_2498877336207538143_n.jpg?oh=de51ad5b9c62f34ac7532cb533839e47&oe=5936D13C' width='500px'/><br/>13 Mở bán căn hộ Vincity Quận 9</a>. tìm đến chúng tôi ngay để cs ngay báo giá. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://bit.ly/2lx5X7J' target='_blank'><img src='https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/16640677_1647511198877000_2498877336207538143_n.jpg' width='500px'/><br/>13 Mở bán căn hộ Vincity Quận 9</a>. tìm đến chúng tôi ngay để cs ngay báo giá. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
